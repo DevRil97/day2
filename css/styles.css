@@ -1,0 +1,31 @@
+.body {
+  background-color: red;
+}
+
+.header {
+  background-color: orange;
+}
+
+.nav {
+  background-color: yellow;
+}
+
+.content-color {
+  background-color: green;
+}
+
+.aside {
+  background-color: blue;
+}
+
+.promo {
+  background-color: indigo;
+}
+
+.footer {
+  background-color: violet;
+}
+
+.hidden {
+  visibility: hidden;
+}
