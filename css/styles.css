@@ -38,3 +38,43 @@
 .bottom {
   visibility: hidden;
 }
+
+.green {
+  background-color: green;
+  height: 200px;
+}
+
+.red {
+  background-color: red;
+  height: 200px;
+}
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 800px) {
+  .red {
+    background-color: blue;
+  }
+  .green {
+    background-color: pink;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .red {
+    background-color: purple;
+  }
+  .green {
+    background-color: yellow;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .red {
+    background-color: gray;
+  }
+  .green {
+    background-color: black;
+    color: white;
+  }
+
+}
